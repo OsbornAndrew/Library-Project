@@ -2,6 +2,7 @@ function findAuthorById(authors, id) {
   let foundAuthor = authors.find((author)=> author.id === id)
   return foundAuthor
 }
+//This is my helper function
 function compareBookToId(books, id){
   let foundBook = books.find((book) => book.id === id)
   return foundBook
